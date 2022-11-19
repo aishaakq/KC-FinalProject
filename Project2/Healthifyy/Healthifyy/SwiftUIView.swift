@@ -9,10 +9,10 @@ import SwiftUI
 
 struct counter: View {
     @State var calories = ""
-    @State var grams = ""
     @State var servings = ""
     
     @State var totalcal = ""
+    
     var body: some View {
         
         ZStack{
@@ -32,15 +32,20 @@ struct counter: View {
                     
                     TextField("How many calories per serving?", text: $calories)
                         .modifier(textfield())
-                    TextField("How many grams per serving?", text: $grams)
-                        .modifier(textfield())
+                    
                     TextField("How many servings will you eat?", text: $servings)
                         .modifier(textfield())
                     
                     
+                    Text("Add another meal")
+                        .modifier(Healthifyy.button2())
+                        .onTapGesture {
+                            
+                        }
+                    
                     
                     Button (action: {
-                        Calculator(calories: Double(calories) ?? 1.0, grams: Double(grams) ?? 1.0, servings: Double(servings) ?? 1.0)
+                        Calculator(calories: Double(calories) ?? 1.0, servings: Double(servings) ?? 1.0)
                     }, label: {
                         Text("Click me to calculate")
                     }).modifier(Healthifyy.button2())
@@ -50,7 +55,7 @@ struct counter: View {
                     
                         
 
-                    Text("*Please keep in mind that these calculations \nmight not be 100% accurate")
+                    Text("*calculations might not be 100% accurate*")
                         .multilineTextAlignment(.leading)
                         .padding([.top], 20)
                     
@@ -67,8 +72,8 @@ struct counter: View {
         
     }
     
-    func Calculator(calories: Double, grams: Double, servings: Double){
-        let total = round((calories * servings * grams) / grams)
+    func Calculator(calories: Double, servings: Double){
+        let total = round(calories * servings)
 
         totalcal = "\(total)"
         
