@@ -50,7 +50,7 @@ struct home: View {
                         }
 
                     VStack{
-                        YourViewControllerView()
+                        MapView()
                     }
                         .tabItem {
                             VStack{

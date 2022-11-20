@@ -24,7 +24,7 @@ struct doctordetails: View {
                                 .clipShape(Circle())
                                 .padding(3)
                             Text(detail.name)
-                                .foregroundColor(Color(red: 0.017, green: 0.287, blue: 0.064))
+                                .foregroundColor(.white)
                                 .font(.system(size: 40))
                                 .fontWeight(.bold)
 

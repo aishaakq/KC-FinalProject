@@ -18,7 +18,8 @@
 		827ECCBB292176F50020B070 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827ECCBA292176F50020B070 /* SwiftUIView.swift */; };
 		827ECCBD2923F4AC0020B070 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827ECCBC2923F4AB0020B070 /* home.swift */; };
 		827ECCC1292809D70020B070 /* home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827ECCC0292809D70020B070 /* home2.swift */; };
-		827ECCC32928D7190020B070 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827ECCC22928D7190020B070 /* test.swift */; };
+		827F5B7529293A3B008A91C9 /* mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827F5B7429293A3B008A91C9 /* mapview.swift */; };
+		827F5B79292948A7008A91C9 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827F5B78292948A7008A91C9 /* PointOfInterest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +36,8 @@
 		827ECCBA292176F50020B070 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		827ECCBC2923F4AB0020B070 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		827ECCC0292809D70020B070 /* home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home2.swift; sourceTree = "<group>"; };
-		827ECCC22928D7190020B070 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		827F5B7429293A3B008A91C9 /* mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapview.swift; sourceTree = "<group>"; };
+		827F5B78292948A7008A91C9 /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 		99721E8350706217A29E052E /* Pods-Healthifyy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthifyy.debug.xcconfig"; path = "Target Support Files/Pods-Healthifyy/Pods-Healthifyy.debug.xcconfig"; sourceTree = "<group>"; };
 		ADE236C30C6C4EFFDDCCD7F5 /* Pods_Healthifyy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healthifyy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,14 +85,15 @@
 			children = (
 				827ECCA0292173B20020B070 /* HealthifyyApp.swift */,
 				827ECCA2292173B20020B070 /* ContentView.swift */,
-				827ECCC22928D7190020B070 /* test.swift */,
 				827ECCBC2923F4AB0020B070 /* home.swift */,
 				827ECCC0292809D70020B070 /* home2.swift */,
+				827F5B78292948A7008A91C9 /* PointOfInterest.swift */,
 				827ECCAE292175EF0020B070 /* doctors.swift */,
 				827ECCB22921763E0020B070 /* doctordetails.swift */,
 				827ECCB42921767B0020B070 /* doctorslist.swift */,
 				827ECCB62921769A0020B070 /* ViewController.swift */,
 				827ECCBA292176F50020B070 /* SwiftUIView.swift */,
+				827F5B7429293A3B008A91C9 /* mapview.swift */,
 				827ECCA4292173B40020B070 /* Assets.xcassets */,
 				827ECCA6292173B40020B070 /* Preview Content */,
 			);
@@ -229,10 +232,11 @@
 			files = (
 				827ECCB72921769A0020B070 /* ViewController.swift in Sources */,
 				827ECCBB292176F50020B070 /* SwiftUIView.swift in Sources */,
+				827F5B79292948A7008A91C9 /* PointOfInterest.swift in Sources */,
 				827ECCB52921767B0020B070 /* doctorslist.swift in Sources */,
-				827ECCC32928D7190020B070 /* test.swift in Sources */,
 				827ECCA3292173B20020B070 /* ContentView.swift in Sources */,
 				827ECCA1292173B20020B070 /* HealthifyyApp.swift in Sources */,
+				827F5B7529293A3B008A91C9 /* mapview.swift in Sources */,
 				827ECCAF292175EF0020B070 /* doctors.swift in Sources */,
 				827ECCC1292809D70020B070 /* home2.swift in Sources */,
 				827ECCBD2923F4AC0020B070 /* home.swift in Sources */,

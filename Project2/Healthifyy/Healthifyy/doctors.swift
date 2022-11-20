@@ -16,7 +16,7 @@ struct doctors: View {
             VStack{
                 HStack{
                     Text("Find Nutritionists")
-                        .foregroundColor(Color(red: 0.017, green: 0.287, blue: 0.064))
+                        .foregroundColor(.white)
                         .font(.system(size: 53))
                         .fontWeight(.bold)
                     Spacer()

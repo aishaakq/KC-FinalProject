@@ -11,17 +11,18 @@ struct home2: View {
     var body: some View {
         VStack{
             Text("Welcome to")
-                .foregroundColor(Color(red: 0.017, green: 0.287, blue: 0.064))
+                .foregroundColor(.white)
                 .font(.system(size: 60))
             
             Text("Healthify")
-                .foregroundColor(Color(red: 0.017, green: 0.287, blue: 0.064))
+                .foregroundColor(.white)
                 .fontWeight(.bold)
                 .font(.system(size: 72))
                 .padding([.bottom], 15)
             
             Text("Your #1 stop for all your fitness needs")
                 .font(.system(size: 17))
+                .foregroundColor(.white)
         }
         .frame(width: 350)
         .background{
